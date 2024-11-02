@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ThreadPool">
+      <UniqueIdentifier>{0a977dce-878a-456f-ab41-0a7974085d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebServer">
+      <UniqueIdentifier>{c5ec29d1-25ff-4ea2-8a8c-331c1df93edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{30763556-338a-4079-aadf-deb09591f4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{02f12155-511a-4631-88dc-97340f14e762}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThreadPool.hpp">
+      <Filter>ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="WebServer.hpp">
+      <Filter>WebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="ResponseCoder.hpp">
+      <Filter>WebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestParser.hpp">
+      <Filter>WebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CgiServer.hpp">
+      <Filter>WebServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="WebServer.cpp">
+      <Filter>WebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="ResponseCoder.cpp">
+      <Filter>WebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestParser.cpp">
+      <Filter>WebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CgiServer.cpp">
+      <Filter>WebServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
